@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/45fec42aef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav><img src="images/logo2.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <H1>Hi, I'm Maahi Poonia.</H1>
+            </div>
+        </div>
+    </div>
+    <!--------------ABOUT-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div id="about-col-1">
+                    <!--<img src="images/leftbg2.jpg" >-->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1><BR>
+                    <p>Hi there, I'm a 19-year-old girl currently pursuing my B.Tech in Computer Science and
+                        Engineering
+                        from DIT University. I have always been fascinated by technology. My passion lies in
+                        combining
+                        my technical skills with my love for designing and art. In addition to my academic pursuits,
+                        I
+                        have a strong inclination towards art.Designing is another realm that captivates me.
+                        Throughout
+                        my academic journey, I have gained a strong foundation in programming languages, data
+                        structures, algorithms, data science ,html, css, js and various other aspects of computer
+                        science. In the future, I envision myself working at the crossroads of technology. As a
+                        lifelong
+                        learner, I'm currently studying computer science in university, where I'm continuously
+                        expanding
+                        my knowledge
+                        and skills. I'm excited about the endless possibilities that technology offers and how it
+                        can be
+                        combined with creativity to make a positive impact in the world. I am a dedicated and
+                        ambitious
+                        individual, constantly seeking opportunities to grow as a professional in the field of
+                        Computer
+                        Science and Engineering. I am excited about the possibilities that lie ahead and eager to
+                        contribute my skills and knowledge to make a positive impact in the industry. I am on a
+                        journey
+                        to realising my purpose. I prioritizes my wellbeing, mental state and self care. I am
+                        determined
+                        to realise my potential and only prioritizes things which brings me peace.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><BR>Designing Web Interface</li>
+                            <li><span>Languages Known</span><BR>JAVA, PYTHON, HTML5, CSS3, JAVASCRIPT, MySQL</li>
+                            <li><span>Soft Skills</span><BR>Analytical Thinking, Problem-Solving, Time-Management
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Summer Internship</span><BR>From Infosys on AI/ML</li>
+                            <li><span>Internship</span><BR>From YHills</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2025</span><BR>DIT UNIVERSITY, 3RD YEAR STUDENT</li>
+                            <li><span>2021</span><BR>Secondary School of Education
+                            </li>
+                            <li><span>2019</span><BR>Higher Education of Education
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </h1>
+
+    <!--------------SEVICES-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <P>Implemented responsive design principles for web applications.
+                        Experienced in front-end development with HTML, CSS, and JavaScript.
+                        Basic knowledge of back-end development using Node.js.</P>
+                    <a href="#">LEARN MORE</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>AI/ML</h2>
+                    <P>Jupyter Notebooks for data exploration and model development.
+                        scikit-learn for machine learning algorithms in Python.
+                        TensorFlow and PyTorch for deep learning</P>
+                    <a href="#">LEARN MORE</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-blogger-b"></i>
+                    <h2>Blog</h2>
+                    <p>Content Creation:
+
+                        Informative Articles, How-To Guides, Opinion Pieces.
+                        Educational Resources:
+
+                        Online Courses, Workshops, E-books.</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------certificates-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY CERTIFICATES</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Screenshot (1).png">
+                    <div class="layer">
+                        <h3>Fundamentals of network communication</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (2).png">
+                    <div class="layer">
+                        <h3>Artificial Intelligence</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (4).png">
+                    <div class="layer">
+                        <h3>Deloitte Australia</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (5).png">
+                    <div class="layer">
+                        <h3>IBM</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (6).png">
+                    <div class="layer">
+                        <h3>JP Morgan</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (7).png">
+                    <div class="layer">
+                        <h3>Wells Fargo</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (9).png">
+                    <div class="layer">
+                        <h3>AWS</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!----contact---->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">CONTACT ME</h1>
+                    <p><i class="fa-solid fa-envelope"></i>maahi.poonia01@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/maahi-poonia-690395281"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://x.com/Maahihihi?t=IMhKRN4ZDAIWxhE_9FdaAA&s=09"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="images/Maahi's Resume.pdf" class="btn btn2">DOWNLOAD CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright<i class="fa-regular fa-copyright"></i> Made by Maahi Poonia<i class="fa-regular fa-heart"></i>
+            </p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.left = "0";
+        }
+        function closemenu() {
+            sidemeu.style.left = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbykNLA4gnEfjrhAf9vRZo2iAuE7wBVrDMzb61eEF5dEKD3PP0BMOTtoPs7C467lNPhudg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML =""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
